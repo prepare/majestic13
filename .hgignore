@@ -1,0 +1,9 @@
+syntax: glob
+
+Majestic13\bin\*
+Majestic13\obj\*
+
+MajesticTests\bin\*
+MajesticTests\obj\*
+
+*~
