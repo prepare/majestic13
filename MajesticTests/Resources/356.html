@@ -1,0 +1,831 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-ru" xml:lang="ru-ru">
+<head>
+<base href="http://dxdy.ru/"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Кто победил фашистскую Германию? : Свободный полёт - Страница 13</title>
+<meta http-equiv="content-language" content="ru-ru" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="Математика, Физика, Computer Science, LaTeX, Механика и Техника, Химия, Биология и Медицина, Экономика и Финансовая Математика, Гуманитарные науки" />
+<meta name="description" content="" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://dxdy.ru/rss/rss.xml.gz" />
+<link rel="alternate" type="application/rss+xml" title="Channel list" href="http://dxdy.ru/rss/" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed of Свободный полёт" href="http://dxdy.ru/svobodnyj-polyot-f10/forum.xml.gz" />
+
+<link rel="stylesheet" href="./styles/subsilver2/theme/stylesheet.css" type="text/css" />
+<link rel="stylesheet" href="./styles/subsilver2/theme/ul_syntax_highlighter.css" type="text/css" />
+<script type="text/javascript" src="./styles/subsilver2/template/xs_bbcode_fn.js"></script>
+<script type="text/javascript" src="./classes/scripts/select_expand_bbcodes.js"></script>
+<script type="text/javascript" src="./styles/subsilver2/template/jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+$(document).ready(function(){
+	//hide the all of the element with class offtop
+	$(".offtop").hide();
+	//toggle the componenet with class offtop_toggle
+	$(".offtop_toggle").click(function(){
+		$(this).next(".offtop").slideToggle(250);
+	});
+	// collapse/expand Categories
+	var collapsed = { 'cat63' : 0, 'cat55' : 0, 'cat56' : 0, 'cat57' : 0, 'cat58' : 0, 'cat59' : 0, 'cat60' : 0 }; 
+	for (var i in collapsed) {
+		if (readCookie(i) == 1) { collapsed[i] = 1; }
+	}
+	var toggleMinus = '/styles/subsilver2/imageset/toggle_minus.png';
+	var togglePlus = '/styles/subsilver2/imageset/toggle_plus.png';
+	var $subHead = $('tbody tr td.fcat h4');
+	$subHead.prepend('<img src="' + toggleMinus + '" alt="+/-" hspace="3"/>  ');	
+	for (var i in collapsed) {
+		if (collapsed[i] == 1) {
+			$('tbody#' + i + ' tr td.fcat img').attr('src', togglePlus).parents('tr').siblings().hide();
+		}
+	}
+	$('img', $subHead).addClass('clickable')
+	.click(function() {
+	    var toggleSrc = $(this).attr('src');
+//	    alert($(this).parents('tbody').attr('id'));
+	    if ( toggleSrc == togglePlus ) {
+			$(this).attr('src', toggleMinus).parents('tr').siblings().show();	
+			createCookie($(this).parents('tbody').attr('id'),0,7);
+	    } else{
+			$(this).attr('src', togglePlus).parents('tr').siblings().fadeOut('normal');
+			createCookie($(this).parents('tbody').attr('id'),1,7);
+		};
+	});		
+});
+</script>
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+// www.phpBB-SEO.com SEO TOOLKIT BEGIN
+function jumpto() {
+	var page = prompt('Введите номер страницы, на которую хотите перейти:', '13');
+	var perpage = '15';
+	var base_url = 'http://dxdy.ru/topic33072.html';
+	var seo_delim_start = '-';
+	var seo_static_pagination = 'page';
+	var seo_ext_pagination = '.html';
+	if (page !== null && !isNaN(page) && page > 0) {
+		var seo_page = (page - 1) * perpage;
+		if ( base_url.indexOf('?') >= 0 ) {
+			document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + seo_page;
+		} else if ( seo_page > 0 ) {
+			var seo_type1 = base_url.match(/\.[a-z0-9]+$/i);
+			if (seo_type1 !== null) {
+				document.location.href = base_url.replace(/\.[a-z0-9]+$/i, '') + seo_delim_start + seo_page + seo_type1;
+			}
+			var seo_type2 = base_url.match(/\/$/);
+			if (seo_type2 !== null) {
+				document.location.href = base_url + seo_static_pagination + seo_page + seo_ext_pagination;
+			}
+		} else {
+			document.location.href = base_url;
+		}
+	}
+}
+// www.phpBB-SEO.com SEO TOOLKIT END
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+<script type="text/javascript">
+
+	function countAdClick(id)
+	{
+	   loadXMLDoc('./ads/click.php?a=' + id);
+	}
+
+	function countAdView(id)
+	{
+	   loadXMLDoc('./ads/view.php?a=' + id);
+	}
+
+	function loadXMLDoc(url) {
+	   req = false;
+	   if(window.XMLHttpRequest) {
+	      try {
+	         req = new XMLHttpRequest();
+	      } catch(e) {
+	         req = false;
+	      }
+	   } else if(window.ActiveXObject) {
+	      try {
+	         req = new ActiveXObject("Msxml2.XMLHTTP");
+	      } catch(e) {
+	         try {
+	            req = new ActiveXObject("Microsoft.XMLHTTP");
+	         } catch(e) {
+	            req = false;
+	         }
+	      }
+	   }
+	   if(req) {
+	      req.open("GET", url, true);
+	      req.send(null);
+	   }
+	}
+</script></head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+		<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="http://dxdy.ru/"><img src="./styles/subsilver2/imageset/dxdy_logo_150x65_transp.gif" width="150" height="65" alt="" title="" /></a></td>
+			<td width="100%" align="center"><h1>Научный форум dxdy</h1><span class="gen">Математика, Физика, Computer Science, LaTeX, Механика и Техника, Химия, Биология и Медицина, Экономика и Финансовая Математика, Гуманитарные науки</span></td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login&amp;sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/theme/images/icon_mini_login.gif" width="12" height="13" alt="*" /> Вход</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register&amp;sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/theme/images/icon_mini_register.gif" width="12" height="13" alt="*" /> Регистрация</a>
+								</td>
+			<td class="genmed" align="right">
+									<a href="./faq.php?sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*" /> FAQ</a>
+					&nbsp; &nbsp;<a href="./search.php?sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/theme/images/icon_mini_search.gif" width="12" height="13" alt="*" /> Поиск</a>			</td>
+		</tr>
+		</table>
+	</div>
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Текущее время: Вс май 23, 2010 01:01:13<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+<div id="headerMessage">		
+		<div>Для набора любых формул следует использовать <a href="/topic8355.html">тег</a> <a href="/topic183.html"><b>[math]</b></a>. В противном случае сообщение будет отправлено в <a href="/karantin-f35-0.html">карантин</a>.</div>
+		<div>С Правилами Научного форума можно ознакомиться <a href="http://dxdy.ru/topic3476.html">здесь</a>.</div>
+		<div>Халявы здесь нет. На нашем форуме <a href="http://dxdy.ru/topic3829.html">не решают задачи за вас</a>.</div>
+		<div>Нужна подсветка синтаксиса? <a href="http://dxdy.ru/topic26708.html">Есть</a> такая возможность!</div>
+		<div><a href="http://twitter.com/dxdy_ru"><img src="/images/icons/twitter.png" alt="dxdy_ru twitter" style="float: left; border: 0px;" hspace="10" vspace="10"/></a>
+			<br/>Следите за нами в <a href="http://twitter.com/dxdy_ru">Твиттере.</a><br/><br/><br/>
+		</div> 
+</div>
+<script type="text/javascript">
+	$(function() {
+		var randomNum = Math.floor(Math.random()*5);
+		$('div#headerMessage div:eq(' + randomNum + ')').css("display", "block");
+	});
+</script>
+<br />
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered&amp;sid=1a584fd08652ec1a4f9dced3659a429a">Сообщения без ответов</a> | <a href="./search.php?search_id=active_topics&amp;sid=1a584fd08652ec1a4f9dced3659a429a">Активные темы</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="http://dxdy.ru/">Список форумов</a> &#187; <a href="http://dxdy.ru/flejm-f59.html">Флейм</a> &#187; <a href="http://dxdy.ru/svobodnyj-polyot-f10.html">Свободный полёт</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="http://dxdy.ru/topic33072-180.html">Кто победил фашистскую Германию?</a></h2>
+
+		<p class="moderators">Модератор: <a style="color:#FF6633;" href="http://dxdy.ru/group8956.html">Супермодераторы</a></p>
+	</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=10&amp;sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=10&amp;t=33072&amp;sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>13</strong> из <strong>13</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 188 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Перейти на страницу…">На страницу</a> <a href="http://dxdy.ru/topic33072-165.html">Пред.</a>&nbsp;&nbsp;<a href="http://dxdy.ru/topic33072.html">1</a> ... <a href="http://dxdy.ru/topic33072-120.html">9</a><span class="page-sep">, </span><a href="http://dxdy.ru/topic33072-135.html">10</a><span class="page-sep">, </span><a href="http://dxdy.ru/topic33072-150.html">11</a><span class="page-sep">, </span><a href="http://dxdy.ru/topic33072-165.html">12</a><span class="page-sep">, </span><strong>13</strong></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="http://dxdy.ru/viewtopic.php?f=10&amp;t=33072&amp;start=180&amp;&amp;view=print&amp;sid=1a584fd08652ec1a4f9dced3659a429a" title="Для печати">Для печати</a> | <a href="http://dxdy.ru/viewtopic.php?f=10&amp;t=33072&amp;start=180&amp;&amp;view=printall&amp;sid=1a584fd08652ec1a4f9dced3659a429a" title="Для печати всех постов треда">Для печати всех постов треда</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="http://dxdy.ru/viewtopic.php?f=10&amp;t=33072&amp;view=previous&amp;sid=1a584fd08652ec1a4f9dced3659a429a">Пред. тема</a> | <a href="http://dxdy.ru/viewtopic.php?f=10&amp;t=33072&amp;view=next&amp;sid=1a584fd08652ec1a4f9dced3659a429a">След. тема</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Автор</th>
+			<th>Сообщение</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p322722"></a>
+				<b class="postauthor">Шимпанзе</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322722.html#p322722"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 14:14:39&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+			
+				<tr>
+					<td><img src="./download/file.php?avatar=5550_1274343990.jpg" width="80" height="80" alt="Аватара пользователя" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><br /><b>Появился:</b> 21/04/06<br /><b>Сообщения:</b> 2538				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Профессор Снэйп в <a href="http://dxdy.ru/post322708.html#p322708" class="postlink">сообщении #322708</a> писал(а):</div><div class="quotecontent">А вот если подойдёт человек в костюме и попросит (или ещё хуже, призовёт) понести вымпел к вящей славе народа и федерации, то пошлю его куда подальше и пусть других дураков идёт ищет.</div><br /><br /><br />     Да..., как говорил Верещагин "За державу обидно".</div>
+
+											<span class="postbody"><br />_________________<br />Шимпанзе</span>
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member5550.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+	<script type="text/javascript"><!--
+google_ad_client = "pub-6436048304481032";
+/* 728x15, создано 09.12.09 */
+google_ad_slot = "2283535756";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p322744"></a>
+				<b class="postauthor">aktim</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322744.html#p322744"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 16:00:13&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+			
+				<tr>
+					<td><img src="./styles/subsilver2/theme/images/no_avatar.gif" alt="" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><br /><b>Появился:</b> 17/05/09<br /><b>Сообщения:</b> 3				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Профессор Снэйп в <a href="http://dxdy.ru/post322708.html#p322708" class="postlink">сообщении #322708</a> писал(а):</div><div class="quotecontent">Да, я не гражданин.</div> Стоит ли этим гордиться и громогласно заявлять во всеуслышание?<br /><br />Есть и другое мнение:<br /><a href="http://www.google.ru/search?hl=ru&amp;source=hp&amp;q=%D0%BF%D0%BE%D1%8D%D1%82%D0%BE%D0%BC+%D0%BC%D0%BE%D0%B6%D0%B5%D1%88%D1%8C+%D1%82%D1%8B+%D0%BD%D0%B5+%D0%B1%D1%8B%D1%82%D1%8C+%D0%BD%D0%BE+%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8%D0%BD%D0%BE%D0%BC+%D0%B1%D1%8B%D1%82%D1%8C+%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D0%BD&amp;aq=1&amp;aqi=g10&amp;aql=&amp;oq=%D0%BF%D0%BE%D1%8D%D1%82%D0%BE%D0%BC&amp;gs_rfai=" class="postlink">Поэтом можешь ты не быть, но гражданином быть обязан</a><br />И там же:<br /><div class="quotetitle"><b>Цитата:</b></div><div class="quotecontent">А что такое гражданин?<br />Отечества достойный сын<br /></div>Считаете ли Вы себя достойным сыном отечества или никогда над эти не заморачивались?</div>
+
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member17798.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+		<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p322772"></a>
+				<b class="postauthor">Ales</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322772.html#p322772"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 17:51:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+			
+				<tr>
+					<td><img src="./styles/subsilver2/theme/images/no_avatar.gif" alt="" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<br /><b>Появился:</b> 20/12/09<br /><b>Сообщения:</b> 377				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">aktim в <a href="http://dxdy.ru/post322744.html#p322744" class="postlink">сообщении #322744</a> писал(а):</div><div class="quotecontent">Профессор Снэйп в сообщении #322708 писал(а):<br />Да, я не гражданин.<br />Стоит ли этим гордиться и громогласно заявлять во всеуслышание?</div><br />Нормальная позиция разумных людей.<br /><br />В России исторически не сложилось гражданского общества. Поэтому не может быть и граждан.<br />А если кто требует с народа гражданской сознательности, то это из корыстных и эгоистических побуждений.<br />Типа народ должен, а если же от народа ничего не надо, то "пшли вон холопы".<br /><br /><span style="color: blue"><span style="font-size: 75%; line-height: normal">-- Сб май 22, 2010 17:53:40 --</span></span><br /><br />Если народ действительно проявит настоящую гражданскую сознательность, <br />то очень многие демагоги об этом пожалеют.<br /><br />Например, во Вторую мировую гражданская сознательность требовала повернуть оружие против режима, вот так.</div>
+
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member20453.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+		<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p322779"></a>
+				<b class="postauthor">Шимпанзе</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322779.html#p322779"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 18:04:50&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+			
+				<tr>
+					<td><img src="./download/file.php?avatar=5550_1274343990.jpg" width="80" height="80" alt="Аватара пользователя" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><br /><b>Появился:</b> 21/04/06<br /><b>Сообщения:</b> 2538				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Ales в <a href="http://dxdy.ru/post322772.html#p322772" class="postlink">сообщении #322772</a> писал(а):</div><div class="quotecontent">Например, во Вторую мировую гражданская сознательность требовала повернуть оружие против режима, вот так.</div><br /><br />         Вы с ума  сошли. <span style="text-decoration: underline">Во время войны </span>повернуть оружие - значит на стороне нацистов воевать. Вы бредите.</div>
+
+											<span class="postbody"><br />_________________<br />Шимпанзе</span>
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member5550.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+		<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p322780"></a>
+				<b class="postauthor">Ales</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322780.html#p322780"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 18:11:42&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+			
+				<tr>
+					<td><img src="./styles/subsilver2/theme/images/no_avatar.gif" alt="" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<br /><b>Появился:</b> 20/12/09<br /><b>Сообщения:</b> 377				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Шимпанзе в <a href="http://dxdy.ru/post322779.html#p322779" class="postlink">сообщении #322779</a> писал(а):</div><div class="quotecontent">Во время войны повернуть оружие - значит на стороне нацистов воевать</div><br />Докажите, иначе это демагогия.</div>
+
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member20453.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+		<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p322807"></a>
+				<b class="postauthor">Шимпанзе</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322807.html#p322807"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 19:38:11&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+			
+				<tr>
+					<td><img src="./download/file.php?avatar=5550_1274343990.jpg" width="80" height="80" alt="Аватара пользователя" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><br /><b>Появился:</b> 21/04/06<br /><b>Сообщения:</b> 2538				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Ales в <a href="http://dxdy.ru/post322780.html#p322780" class="postlink">сообщении #322780</a> писал(а):</div><div class="quotecontent"><div class="quotetitle">Шимпанзе в <a href="http://dxdy.ru/post322779.html#p322779" class="postlink">сообщении #322779</a> писал(а):</div><div class="quotecontent">Во время войны повернуть оружие - значит на стороне нацистов воевать</div><br />Докажите, иначе это демагогия.</div><br /><br />            Тут аксиома и доказывать нечего.  <br />         <br />        Вместо: немцы →   ←  советская армия        ۩  Кремль,<br /><br />        Вы хотите :  немцы →     советская армия   →       ۩  Кремль</div>
+
+											<span class="postbody"><br />_________________<br />Шимпанзе</span>
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member5550.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+		<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p322811"></a>
+				<b class="postauthor" style="color: #3333FF">Профессор Снэйп</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322811.html#p322811"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 19:54:37&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+							<tr>
+					<td class="postdetails">Заслуженный участник</td>
+				</tr>
+			
+				<tr>
+					<td><img src="./download/file.php?avatar=11873_1273334025.jpg" width="80" height="80" alt="Аватара пользователя" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><img src="./styles/subsilver2/imageset/icon_annual_star.gif" width="15" height="15" alt="Годы на форуме" title="Годы на форуме" /><br /><b>Появился:</b> 18/12/07<br /><b>Сообщения:</b> 4684<br /><b>Откуда:</b> Новосибирск				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">aktim в <a href="http://dxdy.ru/post322613.html#p322613" class="postlink">сообщении #322613</a> писал(а):</div><div class="quotecontent">Отдать должное из порядочных людей мало кто захочет, и слово мужество здесь совсем не уместно, больше подходит обреченность загнанного зверя, который получил сполна.</div><br />Вот они, последствия патриотической пропаганды!. "Обречённость зверя", "мужество неуместно"?.. Почему неуместно. Гитлера можете награждать какими угодно эпитетами, но за что называть зверями немецких подростков из гитлерюгенда, пытавшихся остановить фаустпатронами советские танки на улицах Берлина? Они свою Родину защищали, так же, как и русские в 1941-ом.<br /><br /><div class="quotetitle">aktim в <a href="http://dxdy.ru/post322744.html#p322744" class="postlink">сообщении #322744</a> писал(а):</div><div class="quotecontent"><div class="quotetitle">Профессор Снэйп в <a href="http://dxdy.ru/post322708.html#p322708" class="postlink">сообщении #322708</a> писал(а):</div><div class="quotecontent">Да, я не гражданин.</div> Стоит ли этим гордиться и громогласно заявлять во всеуслышание?</div><br />Стоит! Люди прежде всего. Если "гражданственность" противоречит человеческой природе, то ей не должно быть места.<br /><br />Патриотизм --- последнее прибежище негодяев!<br /><br /><span style="color: blue"><span style="font-size: 75%; line-height: normal">-- Сб май 22, 2010 23:04:09 --</span></span><br /><br /><div class="quotetitle">Шимпанзе в <a href="http://dxdy.ru/post322779.html#p322779" class="postlink">сообщении #322779</a> писал(а):</div><div class="quotecontent">Вы с ума сошли. Во время войны повернуть оружие - значит на стороне нацистов воевать. Вы бредите.</div><br />Поддерживаю. Пожалуй что не во время войны, да...<br /><br />Хотя во время войны, конечно, условия благоприятные. Жаль, что нацисты ещё хуже коммунистов оказались...<br /><br />Представляю себе ситуацию, когда советское воинское подразделение, обратив немцев в бегство, разворачивает орудия и начинает уничтожать заградотряды.<br /><br />Говорят, при форсировании Днепра в 1944-ом году советские войска предприняли отвлекающий маневр. Создали видимость наступления в одном месте, но на самом деле наступали в другом. "Настоящее" наступление удалось, манёвр оказался успешным. Те, кто создавал видимость, полегли все до единого, послужив, как и предполагалось, пушечным мясом. А чтоб не тратить зря ресурсов, им ДАЖЕ НЕ ДАЛИ ПАТРОНЫ! Просто погнали, как скот, на убой, без единого шанса...</div>
+
+											<span class="postbody"><br />_________________<br />If I don't explain what you ought to know
+<br />You can tell me all about it on the next Bardo</span>
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member11873.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+		<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p322885"></a>
+				<b class="postauthor">Ales</b>&nbsp;<img src="./styles/subsilver2/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети" />			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Re: Кто победил фашистскую Германию?</b></div><div style="float: right;"><a href="http://dxdy.ru/post322885.html#p322885"><img src="./styles/subsilver2/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение" /></a>Сб май 22, 2010 22:46:38&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="3" align="center" width="140">
+			
+				<tr>
+					<td><img src="./styles/subsilver2/theme/images/no_avatar.gif" alt="" /></td>
+				</tr>
+				
+				</table>
+
+				<span class="postdetails">
+				<br /><b>Появился:</b> 20/12/09<br /><b>Сообщения:</b> 377				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle">Шимпанзе в <a href="http://dxdy.ru/post322807.html#p322807" class="postlink">сообщении #322807</a> писал(а):</div><div class="quotecontent">Тут аксиома и доказывать нечего. </div><br />Значит не можете доказать, значит демагогия и обман.<br />И чего Вам с этого? Никакой ведь выгоды.<br /><br /><span style="color: blue"><span style="font-size: 75%; line-height: normal">-- Сб май 22, 2010 22:49:59 --</span></span><br /><br /><div class="quotetitle">Профессор Снэйп в <a href="http://dxdy.ru/post322811.html#p322811" class="postlink">сообщении #322811</a> писал(а):</div><div class="quotecontent">А чтоб не тратить зря ресурсов, им ДАЖЕ НЕ ДАЛИ ПАТРОНЫ! Просто погнали, как скот, на убой, без единого шанса</div><br />Сомнительно. В 44-ом патронов было уже достаточно.<br /><br /><span style="color: blue"><span style="font-size: 75%; line-height: normal">-- Сб май 22, 2010 22:54:12 --</span></span><br /><br /><div class="quotetitle">Шимпанзе в <a href="http://dxdy.ru/post322779.html#p322779" class="postlink">сообщении #322779</a> писал(а):</div><div class="quotecontent">повернуть оружие - значит на стороне нацистов воевать</div><br />Реально так бы и было. <br />Но, во-первых, не было никаких таких особых нацистов, были просто немцы.<br />Во-вторых, наши люди не знали, чем так плохи эти немцы да фашисты, а от своего режима уже хлебнули горя.</div>
+
+					<br clear="all" />					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"></td> 
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="http://dxdy.ru/member20453.html"><img src="./styles/subsilver2/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;</div></td>
+			</tr>
+
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	</table>
+		<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="http://dxdy.ru/topic33072-180.html"><span class="gensmall">Показать сообщения за:</span> <select name="st" id="st"><option value="0" selected="selected">Все сообщения</option><option value="1">1 день</option><option value="7">7 дней</option><option value="14">2 недели</option><option value="30">1 месяц</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365">1 год</option></select>&nbsp;<span class="gensmall">Поле сортировки</span> <select name="sk" id="sk"><option value="a">Автор</option><option value="t" selected="selected">Время размещения</option><option value="s">Заголовок</option></select> <select name="sd" id="sd"><option value="a" selected="selected">по возрастанию</option><option value="d">по убыванию</option></select>&nbsp;<input class="btnlite" type="submit" value="Перейти" name="sort" /></form></td>
+	</tr>
+	</table>
+	
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=10&amp;sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=10&amp;t=33072&amp;sid=1a584fd08652ec1a4f9dced3659a429a"><img src="./styles/subsilver2/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>13</strong> из <strong>13</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 188 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Перейти на страницу…">На страницу</a> <a href="http://dxdy.ru/topic33072-165.html">Пред.</a>&nbsp;&nbsp;<a href="http://dxdy.ru/topic33072.html">1</a> ... <a href="http://dxdy.ru/topic33072-120.html">9</a><span class="page-sep">, </span><a href="http://dxdy.ru/topic33072-135.html">10</a><span class="page-sep">, </span><a href="http://dxdy.ru/topic33072-150.html">11</a><span class="page-sep">, </span><a href="http://dxdy.ru/topic33072-165.html">12</a><span class="page-sep">, </span><strong>13</strong></b></td>
+			</tr>
+	</table>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="http://dxdy.ru/">Список форумов</a> &#187; <a href="http://dxdy.ru/flejm-f59.html">Флейм</a> &#187; <a href="http://dxdy.ru/svobodnyj-polyot-f10.html">Свободный полёт</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table><br clear="all" />
+
+
+
+</div>
+
+<div id="pagefooter"></div>
+
+	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Кто сейчас на конференции</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Сейчас этот форум просматривают: нет зарегистрированных пользователей и гости: 1</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Вы <strong>не можете</strong> начинать темы<br />Вы <strong>не можете</strong> отвечать на сообщения<br />Вы <strong>не можете</strong> редактировать свои сообщения<br />Вы <strong>не можете</strong> удалять свои сообщения<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=33072&amp;sid=1a584fd08652ec1a4f9dced3659a429a"><span class="gensmall">Найти:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Перейти" /></form></td>
+	<td align="right"></td>
+</tr>
+</table>
+</div>
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	</span>
+</div>
+<!-- Google Analytics snippet -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4845369-1");
+pageTracker._addOrganic("go.mail.ru","q",true); 
+pageTracker._addOrganic("nova.rambler.ru","query",true); 
+pageTracker._addOrganic("nova.rambler.ru","words",true); 
+pageTracker._addOrganic("nigma.ru","s",true); 
+pageTracker._addOrganic("search.qip.ru","query",true); 
+pageTracker._addOrganic("sm.aport.ru","r",true); 
+pageTracker._addOrganic("search.ukr.net","search_query",true); 
+pageTracker._addOrganic("images.google.ru","q",true); 
+pageTracker._addOrganic("images.google.com","q",true); 
+pageTracker._addOrganic("images.google.com.ua","q",true); 
+pageTracker._addOrganic("google.com.ua","q",true); 
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- Google Analytics snippet -->
+</body>
+</html>

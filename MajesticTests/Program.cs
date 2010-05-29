@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Net;
+using System.IO;
+using Majestic13;
+using Majestic12;
 
 namespace MajesticTests
 {
@@ -9,7 +13,9 @@ namespace MajesticTests
     {
         static void Main(string[] args)
         {
-            new BasicTest().CaseA();
+            new BasicTest().CaseC();
+            Console.ReadLine();
+            //new BasicTest().CaseA();
         }
     }
 }

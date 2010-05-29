@@ -19,6 +19,7 @@ namespace Majestic13
             var parser = new HTMLparser();
             parser.bDecodeEntities = false;
             parser.SetChunkHashMode(true);
+            parser.SetEncoding(System.Text.Encoding.UTF8);
 
             parser.Init(html);
             var chunk = parser.ParseNext();
@@ -27,21 +28,41 @@ namespace Majestic13
                 switch (chunk.oType)
                 {
                     case HTMLchunkType.OpenTag:
-                        var attributes = new Dictionary<string, string>();
-                        if (chunk.iParams != 0)
+                        // if something goes wrong - ignore it
+                        if (chunk.sTag != "")
                         {
-                            foreach (string name in chunk.oParams.Keys)
+                            var attributes = new Dictionary<string, string>();
+                            if (chunk.iParams != 0)
                             {
-                                attributes.Add(name, (string)chunk.oParams[name]);
+                                foreach (string name in chunk.oParams.Keys)
+                                {
+                                    attributes.Add(name, (string)chunk.oParams[name]);
+                                }
                             }
+                            builder.OpenTag(chunk.sTag, attributes);
                         }
-                        builder.OpenTag(chunk.sTag, attributes);
                         break;
                     case HTMLchunkType.Comment:
                         builder.AddComment(chunk.oHTML);
                         break;
                     case HTMLchunkType.CloseTag:
-                        builder.CloseTag(chunk.sTag);
+                        if (chunk.bEndClosure)
+                        {
+                            var attr = new Dictionary<string, string>();
+                            if (chunk.iParams != 0)
+                            {
+                                foreach (string name in chunk.oParams.Keys)
+                                {
+                                    attr.Add(name, (string)chunk.oParams[name]);
+                                }
+                            }
+                            builder.OpenTag(chunk.sTag, attr);
+                            builder.CloseTag(chunk.sTag);
+                        }
+                        else
+                        {
+                            builder.CloseTag(chunk.sTag);
+                        }
                         break;
                     case HTMLchunkType.Script:
                         builder.AddScript(chunk.oHTML);
