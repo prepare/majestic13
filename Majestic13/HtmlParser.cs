@@ -19,7 +19,6 @@ namespace Majestic13
             var parser = new HTMLparser();
             parser.bDecodeEntities = false;
             parser.SetChunkHashMode(true);
-            parser.SetEncoding(System.Text.Encoding.UTF8);
 
             parser.Init(html);
             var chunk = parser.ParseNext();
