@@ -7,3 +7,13 @@ MajesticTests\bin\*
 MajesticTests\obj\*
 
 *~
+
+*.user
+*.suo
+[Bb]in
+[Db]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+*.vs10x
+*.sln.docstates
