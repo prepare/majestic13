@@ -47,5 +47,5 @@ Task Clean {
 Task CreateNuget {
 	Write-Host "Create NuGet package" -ForegroundColor Green
 	echo $nuget
-	Exec { .\Tools\NuGet.exe pack $nuspec -OutputDirectory $artifacts_dir }
+	Exec { .\Tools\NuGet.exe pack $nuspec -Exclude **\*.pdb -OutputDirectory $artifacts_dir }
 }
