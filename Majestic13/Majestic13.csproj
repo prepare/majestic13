@@ -32,10 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HTMLparserLibDotNet20, Version=3.1.4.26284, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\References\HTMLparserLibDotNet20.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,6 +46,12 @@
     <Compile Include="HtmlParser.cs" />
     <Compile Include="IHtmlNodeVisitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Majestic12\Majestic12.Net20\HTMLparser.Net20.csproj">
+      <Project>{499C0FA8-9B6C-4590-926B-FF5061AE6C18}</Project>
+      <Name>HTMLparser.Net20</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
