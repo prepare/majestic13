@@ -1,0 +1,19 @@
+syntax: glob
+
+Majestic13\bin\*
+Majestic13\obj\*
+
+MajesticTests\bin\*
+MajesticTests\obj\*
+
+*~
+
+*.user
+*.suo
+[Bb]in
+[Db]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+*.vs10x
+*.sln.docstates
