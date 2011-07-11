@@ -32,7 +32,7 @@ Task Build -Depends Clean {
 }
 
 Task Clean {
-	Write-Host "Creating BuildArtifacts directory" -ForegroundColor Green
+	Write-Host "Creating Artifacts directory" -ForegroundColor Green
 	if (Test-Path $build_artifacts_dir) 
 	{
 		rd $build_artifacts_dir -rec -force | out-null
@@ -40,12 +40,11 @@ Task Clean {
 	
 	mkdir $build_artifacts_dir | out-null
 	
-	Write-Host "Cleaning helloworld.sln" -ForegroundColor Green
+	Write-Host "Cleaning" -ForegroundColor Green
 	Exec { msbuild "$build_dir\Majestic13.Build.sln" /t:Clean /p:Configuration=Release /v:quiet } 
 }
 
 Task CreateNuget {
 	Write-Host "Create NuGet package" -ForegroundColor Green
-	echo $nuget
 	Exec { .\Tools\NuGet.exe pack $nuspec -Exclude **\*.pdb -OutputDirectory $artifacts_dir }
 }
