@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLparser.SL40", "..\..\Majestic12\Majestic12.SL40\HTMLparser.SL40.csproj", "{C3149339-4284-4BE7-8622-DFB8F1A9ED5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majestic13.SL40", "..\Majestic13.SL40\Majestic13.SL40.csproj", "{EEB0567D-4AA6-43EB-8B3C-056F3258BF7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3149339-4284-4BE7-8622-DFB8F1A9ED5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3149339-4284-4BE7-8622-DFB8F1A9ED5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3149339-4284-4BE7-8622-DFB8F1A9ED5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3149339-4284-4BE7-8622-DFB8F1A9ED5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB0567D-4AA6-43EB-8B3C-056F3258BF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB0567D-4AA6-43EB-8B3C-056F3258BF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB0567D-4AA6-43EB-8B3C-056F3258BF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB0567D-4AA6-43EB-8B3C-056F3258BF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

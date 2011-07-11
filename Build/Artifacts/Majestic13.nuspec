@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Majestic13</id>
+    <version>3.2.0</version>
+    <authors>Rystsov Denis, Ting-Yu Lin</authors>
+    <projectUrl>http://code.google.com/p/majestic13/</projectUrl>
+    <description>A wrap around html parser (http://www.majestic12.co.uk/projects/html_parser.php) providing simpler API.</description>
+    <tags>HTML parser htmlparser majestic-12</tags>
+  </metadata>
+</package>
