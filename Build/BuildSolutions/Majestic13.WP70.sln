@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLparser.WP70", "..\..\Majestic12\Majestic12.WP70\HTMLparser.WP70.csproj", "{75C6D248-F2D4-4D13-8DF9-B4BEA4F8E49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majestic13.WP70", "..\Majestic13.WP70\Majestic13.WP70.csproj", "{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75C6D248-F2D4-4D13-8DF9-B4BEA4F8E49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C6D248-F2D4-4D13-8DF9-B4BEA4F8E49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C6D248-F2D4-4D13-8DF9-B4BEA4F8E49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C6D248-F2D4-4D13-8DF9-B4BEA4F8E49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
