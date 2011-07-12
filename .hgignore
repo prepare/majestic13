@@ -1,9 +1,14 @@
 syntax: glob
 
-Majestic13\bin\*
-Majestic13\obj\*
+MajesticTests/bin
+MajesticTests/obj
 
-MajesticTests\bin\*
-MajesticTests\obj\*
+Majestic13/bin/*
+Majestic13/obj/*
+
+MajesticTests/bin/*
+MajesticTests/obj/*
+
+Majestic13.suo
 
 *~
