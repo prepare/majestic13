@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using NUnit.Framework;
-
 using Majestic13;
-using System.IO;
+using NUnit.Framework;
 
 namespace MajesticTests
 {
@@ -33,7 +32,7 @@ namespace MajesticTests
         [Test]
         public void CaseC()
         {
-            var html = new FileInfo(@"Resources\356.html").OpenText().ReadToEnd();
+            var html = File.ReadAllText(@"Resources\356.html");
             var parser = new HtmlParser();
             var node = parser.Parse(html);
             Assert.That(node is HtmlNode.Tag);

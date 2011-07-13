@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majestic13.SL40", "Majestic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majestic13.WP70", "Majestic13.WP70\Majestic13.WP70.csproj", "{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajesticTests", "..\MajesticTests\MajesticTests.csproj", "{D00626D6-A7AE-485E-A68C-111C804B2BAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DA6981-3AA0-42A0-BAFC-5BC14F89ED6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00626D6-A7AE-485E-A68C-111C804B2BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00626D6-A7AE-485E-A68C-111C804B2BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00626D6-A7AE-485E-A68C-111C804B2BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00626D6-A7AE-485E-A68C-111C804B2BAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
