@@ -4,8 +4,10 @@
     <id>Majestic13</id>
     <version>3.2.0</version>
     <authors>Rystsov Denis, Ting-Yu Lin</authors>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
     <projectUrl>http://code.google.com/p/majestic13/</projectUrl>
-    <description>A convenient API to Majestic-12 html parser</description>
-    <tags>HTML parser htmlparser majestic-12</tags>
+    <iconUrl>http://logo.majestic13.googlecode.com/hg/logo100.png</iconUrl>
+    <description>A convenient API to Majestic-12 html parser. Works on .NET framework, Silverlight and Windows Phone 7.</description>
+    <tags>HTML parser parse htmlparser majestic-12 silverlight sl4 wp7</tags>
   </metadata>
 </package>
